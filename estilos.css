@@ -27,7 +27,7 @@ margin: 0;
     animation: rainbowtext 9s linear infinite;
 }
 @media (min-width: 750px){
- 
+
     .tira #sencillo{
         font-size: 2em;
     }
@@ -52,7 +52,7 @@ margin: 0;
 
 
 /* ++++++++++++++++ */
-   
+
 .options{
 
 display: flex;
@@ -71,18 +71,29 @@ background-color: rgb(30, 98, 0);
 color: white;
 font-size: 25px;
 cursor: pointer;
-
+border: none;
 }
+.historial:hover{
+
+    background-color: darkorchid;
+    color: black;
+    font-size: 25px;
+}
+
+
 .contenido{
 display: flex;
-flex-direction: column;
-align-items: center;
+justify-content: center ;
+align-items: center ;
 width: 100%;
+background-image: url("fondoU.png");
 }
 
 .parrafo{
 width: 50%;
+height: 70vh;
 font-size: 25px;
+background-color:white ;
 
 
 }
