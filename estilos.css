@@ -83,6 +83,7 @@ border: none;
 
 .contenido{
 display: flex;
+flex-direction: column;
 justify-content: center ;
 align-items: center ;
 width: 100%;
@@ -94,6 +95,11 @@ width: 50%;
 height: 70vh;
 font-size: 25px;
 background-color:white ;
+}
 
+.fotos{
+height: 200px;
+width: 300px;
+margin-left: 30px;
 
 }
