@@ -87,7 +87,7 @@ flex-direction: column;
 justify-content: center ;
 align-items: center ;
 width: 100%;
-background-image: url("fondoU.png");
+background-image: url("img/fondoU.png");
 }
 
 .parrafo{
@@ -103,3 +103,22 @@ width: 300px;
 margin-left: 30px;
 
 }
+
+/* -- tabla -- */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
